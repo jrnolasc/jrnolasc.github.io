@@ -103,11 +103,6 @@
         p{
             text-align: center;
         }
-        .main-btn{
-            //align-items: center;
-            //position: relative;
-            
-        }
         
     }
     .header-content .left-header .image{
@@ -276,6 +271,28 @@
     .section{
         padding: 0rem 1.5rem !important;
     }
+    .header-content .right-header .name{
+      font-size: 2rem !important;
+    }
+    .controlls{
+        top:2.2%;
+        right: 3%;
+        .control{
+            width: 18px;
+            height: 18px;
+            i{
+                font-size: .9rem;
+            }
+        }
+    }
+    .top-shape{
+        top: 0;
+        width: 200%;
+        height: 35%;
+}
+    .sec2{
+        padding: 0rem 0rem !important;
+    }
     .about-container{
         grid-template-columns: 1fr !important;
         .right-about{
@@ -285,6 +302,7 @@
 
         .left-about{
             padding-right: 0;
+            grid-row: 1;
             p{
                 position: relative;
                 top: 100px;
