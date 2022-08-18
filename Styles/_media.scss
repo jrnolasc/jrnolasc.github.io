@@ -1,0 +1,301 @@
+
+@media screen and (max-width: 600px){
+   
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr !important;
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem
+        }
+    }
+    .contact-content-con .right-contact .i-c-2{
+        flex-direction: column;
+
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+        
+    }
+
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }            
+        }
+    }
+}
+
+@media screen and (max-width: 1432px) {
+        header{
+            padding: 0 !important;
+        }
+
+
+}
+
+@media screen and (max-width: 1070px) {
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+        }
+    }
+    .portfolios{
+        grid-template-columns: 1fr 1fr;
+    }
+    .main-title{
+        h2{
+            font-size:4rem;
+            span{
+                font-size: 4 rem;
+            }
+            .bg-text{
+                font-size: 4.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 970px){
+    .section{
+        padding: 7rem 6rem;
+    }
+
+    header{
+        padding: 0 !important;
+
+    }
+    header .right-header{
+        padding: 0 !important;
+               
+    }
+
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+   
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 3rem;
+
+        }
+        p{
+            text-align: center;
+        }
+        .main-btn{
+            //align-items: center;
+            //position: relative;
+            
+        }
+        
+    }
+    .header-content .left-header .image{
+        margin:0 auto;
+        width: 90%;
+        align-items: center;
+       
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem ;
+        }
+
+        .left-about{
+            padding-right: 0;
+            p{
+                position: relative;
+                top: 100px;
+                padding-left: 0;
+                //padding-top: 0;
+            }
+            .btn-con{
+                position: relative;
+                top:100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .section{
+        padding: 2rem 2.5rem !important;
+    }  
+    .portfolios{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    header .right-header{
+        padding: 0 !important;
+               
+    }
+    .right-header{
+        .name{
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 3rem;       
+        }
+        p{
+            text-align: center;
+        }
+        .main-btn{
+            align-items: center;
+        }   
+    }
+   
+}
+
+@media screen and (max-height: 900px){
+    .sec1{
+        padding: 0rem 2.5rem !important;
+    }
+    .controlls{
+        .control{
+            width: 35px;
+            height: 35px;
+            i{
+                font-size: .9rem;
+            }
+        }
+    }
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+    header{
+        padding: 0 !important;
+        
+    }
+    .right-header{
+        .name{
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 4rem;
+        }   
+    }
+
+    .about-container{
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+
+        .left-about{
+            padding-right: 2rem !important;
+            p{
+                position: relative;
+                top: 100px;
+                font-size: 1rem;
+            }
+            .btn-con{
+                align-items: left;
+                position: relative;
+                top:110px;
+            }
+        }
+        .right-about{  
+            position: relative;
+            bottom: 200px;
+                .skills .skills-text{
+                    padding-top: 4rem;
+                    position: relative;
+                    left: 150px;
+                }
+            }
+        .abt-text{
+            .large-text{
+                font-size: 1.5rem !important;
+            }
+            .small-text{
+                font-size: .9rem !important;
+            }
+        }
+    }
+    .main-title{
+        text-align: center;
+       
+        h2{
+            position: relative;
+            top: 40px;
+         } 
+    }
+    .portfolios{
+        padding: 8rem 2rem !important;
+        margin-top: 2rem;
+        position: relative;
+        bottom: 80px;
+        right: 40px;
+        .port-name{
+            font-size: .75px;  
+            h4{
+                font-size: .94rem !important;
+            }
+ 
+            .port-describe{
+                font-size: .9rem !important;
+                
+            }
+           
+        }
+    }
+    .contact-content-con{
+        padding-top: 3.5;
+        position: relative;
+        top: 60px;
+        .left-contact{
+            align-items: left;
+        }
+        .right-contact{
+            position: relative;
+            top: 0px !important;
+        }
+    }
+
+}
+@media screen and (max-width: 500px){
+    .section{
+        padding: 0rem 1.5rem !important;
+    }
+    .about-container{
+        grid-template-columns: 1fr !important;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem ;
+        }
+
+        .left-about{
+            padding-right: 0;
+            p{
+                position: relative;
+                top: 100px;
+                padding-left: 0;
+                //padding-top: 0;
+            }
+            .btn-con{
+                position: relative;
+                top:100px;
+            }
+        }
+    }
+    
+}
