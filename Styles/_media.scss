@@ -231,7 +231,7 @@
        
         h2{
             position: relative;
-            top: 40px;
+            top: 55px;
          } 
     }
     .portfolios{
@@ -275,11 +275,11 @@
       font-size: 2rem !important;
     }
     .controlls{
-        top:2.2%;
+        top:2.8%;
         right: 3%;
         .control{
-            width: 18px;
-            height: 18px;
+            width: 20px;
+            height: 20px;
             i{
                 font-size: .9rem;
             }
@@ -288,11 +288,9 @@
     .top-shape{
         top: 0;
         width: 200%;
-        height: 35%;
+        height: 45%;
 }
-    .sec2{
-        padding: 0rem 0rem !important;
-    }
+
     .about-container{
         grid-template-columns: 1fr !important;
         .right-about{

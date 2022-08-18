@@ -189,7 +189,7 @@
   }
   .main-title h2 {
     position: relative;
-    top: 40px;
+    top: 55px;
   }
   .portfolios {
     padding: 8rem 2rem !important;
@@ -228,12 +228,12 @@
     font-size: 2rem !important;
   }
   .controlls {
-    top: 2.2%;
+    top: 2.8%;
     right: 3%;
   }
   .controlls .control {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
   }
   .controlls .control i {
     font-size: 0.9rem;
@@ -241,10 +241,7 @@
   .top-shape {
     top: 0;
     width: 200%;
-    height: 35%;
-  }
-  .sec2 {
-    padding: 0rem 0rem !important;
+    height: 45%;
   }
   .about-container {
     grid-template-columns: 1fr !important;
@@ -1030,7 +1027,7 @@ section {
   }
   .main-title h2 {
     position: relative;
-    top: 40px;
+    top: 55px;
   }
   .portfolios {
     padding: 8rem 2rem !important;
@@ -1069,12 +1066,12 @@ section {
     font-size: 2rem !important;
   }
   .controlls {
-    top: 2.2%;
+    top: 2.8%;
     right: 3%;
   }
   .controlls .control {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
   }
   .controlls .control i {
     font-size: 0.9rem;
@@ -1082,10 +1079,7 @@ section {
   .top-shape {
     top: 0;
     width: 200%;
-    height: 35%;
-  }
-  .sec2 {
-    padding: 0rem 0rem !important;
+    height: 45%;
   }
   .about-container {
     grid-template-columns: 1fr !important;
