@@ -94,6 +94,16 @@
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
   }
+  .about-container .right-about .skills .skills-text {
+    position: relative;
+    left: 6px !important;
+    grid-column: 1;
+    font-size: 2.2rem !important;
+  }
+  .about-container .right-about .about-item {
+    grid-column: 1;
+    grid-row: auto;
+  }
   .about-container .left-about {
     padding-right: 0;
   }
@@ -189,7 +199,8 @@
   }
   .main-title h2 {
     position: relative;
-    top: 55px;
+    top: 70px;
+    font-size: 2.5rem;
   }
   .portfolios {
     padding: 8rem 2rem !important;
@@ -932,6 +943,16 @@ section {
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
   }
+  .about-container .right-about .skills .skills-text {
+    position: relative;
+    left: 6px !important;
+    grid-column: 1;
+    font-size: 2.2rem !important;
+  }
+  .about-container .right-about .about-item {
+    grid-column: 1;
+    grid-row: auto;
+  }
   .about-container .left-about {
     padding-right: 0;
   }
@@ -1027,7 +1048,8 @@ section {
   }
   .main-title h2 {
     position: relative;
-    top: 55px;
+    top: 70px;
+    font-size: 2.5rem;
   }
   .portfolios {
     padding: 8rem 2rem !important;

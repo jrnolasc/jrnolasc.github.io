@@ -116,7 +116,19 @@
         .right-about{
             grid-template-columns: 1fr;
             padding-top: 2.5rem ;
+            .skills .skills-text{
+                position: relative;
+                left: 6px !important; 
+                grid-column: 1;    
+                font-size: 2.2rem !important;
+            }
+            .about-item
+            {
+                grid-column: 1;
+                grid-row: auto;
+            }
         }
+        
 
         .left-about{
             padding-right: 0;
@@ -231,7 +243,8 @@
        
         h2{
             position: relative;
-            top: 55px;
+            top: 70px;
+            font-size: 2.5rem;
          } 
     }
     .portfolios{
